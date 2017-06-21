@@ -1,6 +1,3 @@
-let Sequelize = require('sequelize')
+let user = require('./user')
 
-const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  storage: './blog-dev.sqlite'
-})
+module.exports = user
